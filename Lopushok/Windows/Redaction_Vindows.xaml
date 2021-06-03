@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lopushok.Windows.Redaction_Vindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lopushok.Windows"
+        mc:Ignorable="d"
+        Title="Редактировать" Height="348.505" Width="530.979">
+    <Grid Background="#FFCEFFF9">
+        <Button x:Name="btn_add_bd" Content="Редактировать" HorizontalAlignment="Left" Margin="391,267,0,0" VerticalAlignment="Top" Width="108" Height="32" Background="#FF00CC76" FontFamily="Gabriola" FontSize="20" Foreground="Black" BorderBrush="#FFCEFFF9"/>
+        <Button x:Name="btn_add_back" Content="Назад" HorizontalAlignment="Left" Margin="27,267,0,0" VerticalAlignment="Top" Width="80" Height="32" Background="#FF00CC76" FontFamily="Gabriola" FontSize="20" Foreground="Black" BorderBrush="#FFCEFFF9" Click="btn_add_back_Click"/>
+        <Label x:Name="label_type_and_title" Content="Тип | Наименование продукта" HorizontalAlignment="Left" Margin="181,17,0,0" VerticalAlignment="Top" FontFamily="Gabriola" FontSize="20" Width="508" Height="41"/>
+        <Label x:Name="label_article_number" Content="Артикул" HorizontalAlignment="Left" Margin="181,82,0,0" VerticalAlignment="Top" FontFamily="Gabriola" FontSize="20" Width="111" Height="41"/>
+        <Image x:Name="label_image" HorizontalAlignment="Left" Height="131" Margin="27,113,0,0" VerticalAlignment="Top" Width="142" Source="picture — копия.png"/>
+        <Label x:Name="label_cont" Content="Стоимость" HorizontalAlignment="Left" Margin="181,203,0,0" VerticalAlignment="Top" FontFamily="Gabriola" FontSize="20" Width="124" Height="41" RenderTransformOrigin="0.471,0.282"/>
+        <Label x:Name="label_material" Content="Материалы:" Margin="181,143,0,0" FontFamily="Gabriola" FontSize="20" Width="318" Height="43" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="search" HorizontalAlignment="Left" Height="30" Margin="181,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="318" Background="White" FontSize="20" BorderBrush="#FF00CC76" SelectionBrush="#FFCEFFF9" TextOptions.TextHintingMode="Animated" FontFamily="Gabriola"/>
+        <TextBox x:Name="search_Copy" HorizontalAlignment="Left" Height="30" Margin="181,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="318" Background="White" FontSize="20" BorderBrush="#FF00CC76" SelectionBrush="#FFCEFFF9" TextOptions.TextHintingMode="Animated" FontFamily="Gabriola"/>
+        <TextBox x:Name="search_Copy1" HorizontalAlignment="Left" Height="30" Margin="181,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="318" Background="White" FontSize="20" BorderBrush="#FF00CC76" SelectionBrush="#FFCEFFF9" TextOptions.TextHintingMode="Animated" FontFamily="Gabriola"/>
+        <TextBox x:Name="search_Copy2" HorizontalAlignment="Left" Height="30" Margin="181,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="318" Background="White" FontSize="20" BorderBrush="#FF00CC76" SelectionBrush="#FFCEFFF9" TextOptions.TextHintingMode="Animated" FontFamily="Gabriola"/>
+        <Border BorderBrush="#FF00CC76" BorderThickness="1" HorizontalAlignment="Left" Height="294" Margin="10,10,0,0" VerticalAlignment="Top" Width="496"/>
+
+    </Grid>
+</Window>
